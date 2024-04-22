@@ -1,4 +1,4 @@
-# Name: Joshua Lewis
+# Name: J. Lewis
 def addition(summand_a, summand_b):
     """
     addition adds two numbers together;
