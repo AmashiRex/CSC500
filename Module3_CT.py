@@ -16,7 +16,7 @@ def naive_alarm(time, delay):
     """
     Calculates the new time, after a delay, in a 24-hour format.
     :param time: An integer representing the current time
-    :param delay: The amount of time between the present and the alam.
+    :param delay: The amount of time between the present and the alarm.
     :return: Returns the new time, after a delay, in a 24-hour format and the number of elapsed days.
     """
     return (time + delay) % 24, delay // 24
