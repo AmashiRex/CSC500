@@ -7,11 +7,13 @@ class ItemToPurchase:
         item_name (str): The name of a shopping cart item
         item_price (float): The price of the shopping cart item
         item_quantity (int): The quantity of the shopping cart item
+        item_description (str): A description of the shopping cart item
     """
-    def __init__(self, item_name="None", item_price=0, item_quantity=0):
+    def __init__(self, item_name="None", item_price=0, item_quantity=0, item_description=""):
         self.item_name = item_name
         self.item_price = item_price
         self.item_quantity = item_quantity
+        self.item_description = item_description
 
     def item_cost(self):
         """
@@ -29,7 +31,7 @@ class ItemToPurchase:
 
     def __add__(self, other):
         """
-        Adds togeather the costs of shopping cart items
+        Adds together the costs of shopping cart items
         :param other: A second shopping cart item instance
         :return: A float representing the addition of two shopping cart items
         """
