@@ -1,6 +1,6 @@
 # Name: J. Lewis
 
-import Module4_PM as new_item
+from Module4_PM import ItemToPurchase as new_item
 
 
 class ShoppingCart:
