@@ -7,9 +7,9 @@ import numpy as np
 def distance(point1, point2):
     """
     Calculates the distance between two points.
-    :param point1: A coordinate pair (x, y).
-    :param point2: A coordinate pair (x, y).
-    :return: The distance between two pairs of coordinates.
+    :param point1: A set of coordinates (iterable collection of floats) defining the first point.
+    :param point2: A set of coordinates (iterable collection of floats) defining the second point.
+    :return: The distance between two pairs of coordinates (float).
     """
     x1, y1 = point1[0], point1[1]
     x2, y2 = point2[0], point2[1]
